@@ -39,4 +39,4 @@ install:
 script: 
   - python --version
   - pytest
-  - cd docs && make doctest
+  - cd docs && make doctest SPHINXOPTS=-W #Make doctest treat warnings as errors, to detect problems in autodoc

@@ -126,17 +126,17 @@ Following sphinx doctest documentation, there are three main kind of snippets:
     .. testcode::
     
        1+1        # this will give no output!
-       print 2+2  # this will give output
+       print(2+2)  # this will give output
 
 - ``testcode`` can be followed by ``testoutput``, specifying what is the expected output::
 
     .. testoutput::
     
-       4
+       4 #Expected output from the last testcode::
 
 - also: ``doctest`` works on normal doctests as the following. You can put doctest blocks with the expected value in the next line and doctest will evaluate and validate that for you:
 
-    >>> print 1
-    2
+>>> print(2) #We should print what is expected below, otherwise the test will fail!
+2
     
 More about it can be found in: http://www.sphinx-doc.org/en/stable/ext/doctest.html

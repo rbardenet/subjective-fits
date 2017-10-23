@@ -31,6 +31,7 @@ sys.path.insert(0, os.path.abspath('..'))
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = ['sphinx.ext.doctest', 'sphinx.ext.autodoc']
+autodoc_warningiserror = True
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

@@ -62,7 +62,7 @@ One of the nicest features of sphinx is that its closely related to your project
 Importing doc strings from your source code
 ################################################
 
-Autodoc is a sphynx plugin that allows us to embed your source code's doc strings into your documentation.
+Autodoc is a sphynx plugin that allows us to embed your source code's doc strings into your documentation. The main documentation about autodoc can be found in the following link: http://www.sphinx-doc.org/en/stable/ext/autodoc.html#module-sphinx.ext.autodoc. The rest of this section explains the basics to use autodoc.
 
 Install the ``autodoc`` extensions in the conf.py by adding the 'sphinx.ext.autodoc' string in the extensions list::
 

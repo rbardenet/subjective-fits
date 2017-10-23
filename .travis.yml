@@ -10,18 +10,19 @@ language: python
 
 # To use other python versions in osx, set the PYTHON variable with the version supported by pyenv.
 # Check available versions with `pyenv install --list'.
+# We use in this example python >=3.4 because matplotlib requires it
 matrix:
     include:
         - os: linux
           python: 2.7
         - os: linux
-          python: 3.3
+          python: 3.4
         - os: osx
           language: generic
           env: PYTHON=2.7
         - os: osx
           language: generic
-          env: PYTHON=3.3.6
+          env: PYTHON=3.4.6
 
 # Command to install dependencies for each configuration.
 before_install:

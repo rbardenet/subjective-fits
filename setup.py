@@ -82,6 +82,7 @@ setup(
     install_requires=[
         'nose                 >=1.3.0,<1.8.9',
         'coverage             >=3.5.3',
+        'matplotlib',
     ],
 
     # List additional groups of dependencies here (e.g. development

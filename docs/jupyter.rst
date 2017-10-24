@@ -2,7 +2,7 @@ Jupyter tutorial
 ================
 
 Installation
-==============
+------------
 
 Install
 
@@ -24,7 +24,7 @@ To interpret your notebook and convert it into a static html page do in the comm
     $ jupyter nbconvert --to html Untitled4.ipynb
 
 Useful Links
-============
+------------
 
  - A complete tutorial with screenshots and everything: https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook 
  - the internal format of Jupyter notebooks: http://nbformat.readthedocs.io/en/latest/format_description.html

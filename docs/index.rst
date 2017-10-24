@@ -6,3 +6,4 @@ Python paper template
 
    sphinx
    plotting
+   jupyter

@@ -1,1 +1,1 @@
-from mymodule import Counter
+from . import Counter

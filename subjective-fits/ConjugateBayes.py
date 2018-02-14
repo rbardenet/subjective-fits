@@ -1,16 +1,16 @@
 import numpy as np
 import scipy.stats as sps
 
-class ConjugateBayes:
+class ConjugateBayes(data, sigma2Lhd, muPrior=0, sigma2Prior=1):
     """
     Implements Gaussian-Gaussian conjugate model
     """
 
-    def __init__(self, data, sigma2Lhd, muPrior, sigma2Prior):
+    def __init__(self):
         self.data = data
-        self.sigma2Lhd = sigma2Lhd
+        self.sigma2Lhd = sigmaLhd
         self.muPrior = muPrior
-        self.sigma2Prior =sigma2Prior
+        self.sigma2Prior =sigmaPrior
 
     def estimate(self):
         """

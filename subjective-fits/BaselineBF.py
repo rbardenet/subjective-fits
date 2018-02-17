@@ -19,12 +19,13 @@ class BaselineBF:
         """
         return np.mean(self.data)
 
-    def interval(self, alpha):
+    def interval(self, credibilityLevel):
         """
-        return a centered interval with bel(I) = 1-alpha
+        return a centered interval with bel(I) = credibilityLevel
         """
+        alpha = 1-credibilityLevel
         mle = self.estimate()
         semi_width = self.sigma2Lhd*np.sqrt(2*np.log(1/alpha)/self.N)
-        lo = mle - semi_width 
+        lo = mle - semi_width
         hi = mle + semi_width
         return lo, hi

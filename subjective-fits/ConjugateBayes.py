@@ -21,11 +21,11 @@ class ConjugateBayes:
                     +np.sum(self.data)/self.sigma2Lhd)
         return self.muPosterior
 
-    def interval(self, alpha):
+    def interval(self, credibilityLevel):
         """
         return a centered posterior credible interval with mass >= 1-alpha
         """
         self.estimate()
         self.sigma2Posterior = 1/(1/self.sigma2Prior+self.N/self.sigma2Lhd)
-        lo, hi = sps.norm(loc=self.muPosterior, scale=np.sqrt(self.sigma2Posterior)).interval(alpha)
+        lo, hi = sps.norm(loc=self.muPosterior, scale=np.sqrt(self.sigma2Posterior)).interval(credibilityLevel)
         return lo, hi

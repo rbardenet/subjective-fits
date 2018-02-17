@@ -24,7 +24,7 @@ class BaselineBF:
         return a centered interval with bel(I) = 1-alpha
         """
         mle = self.estimate()
-        semi_width = 2*self.sigma2Lhd*np.sqrt(2*np.log(1/alpha)/self.N)
+        semi_width = self.sigma2Lhd*np.sqrt(2*np.log(1/alpha)/self.N)
         lo = mle - semi_width 
         hi = mle + semi_width
         return lo, hi

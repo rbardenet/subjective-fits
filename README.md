@@ -1,5 +1,5 @@
 # 50 shades of subjective probabilists...
-## ... fitting a 1D Gaussian
+... fitting a 1D Gaussiani
 
 
 [![CheckHowThisButtonIsDoneToAdaptItToYourProject](https://travis-ci.org/[your_username]/[project_name].svg?branch=[branch_to_test])](https://travis-ci.org/[your_username]/[project_name])
@@ -10,13 +10,16 @@
 
 There are several ways to do be a statistician, that is, to use data and models to make decisions in the presence of uncertainty. In this project, we demonstrate how various schools would solve the simplest task: fitting a Gaussian.
 
+### Run on Colab
+Google now offers a jupyter notebook service that allows you to run the code without installing anything locally. 
+
 ### Install from sources
 
 Clone this repository
 
 ```bash
-git clone https://github.com/[myself]/[project_name].git
-cd [project_name]
+git clone https://github.com/rbardenet/subjective-fits.git
+cd subjective-fits
 ```
 
 And execute `setup.py`

@@ -1,5 +1,5 @@
 # 50 shades of subjective probabilists...
-... fitting a 1D Gaussiani
+... fitting a 1D Gaussian!
 
 
 [![CheckHowThisButtonIsDoneToAdaptItToYourProject](https://travis-ci.org/[your_username]/[project_name].svg?branch=[branch_to_test])](https://travis-ci.org/[your_username]/[project_name])

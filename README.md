@@ -27,10 +27,10 @@ pip install .
 
 ## Usage examples
 
-Usag is demonstrated in the companion jupyter notebook
+Usage is demonstrated in the companion jupyter notebook
 
 ```bash
-cd tutorial_notebooks
+cd tutorial_notebook
 jupyter notebook tutorial.ipynb
 ```
 

@@ -8,7 +8,7 @@
 
 > project description
 
-There are several ways to do be a statistician, that is, to use data and models to make decisions in the presence of uncertainty. In this project, we demonstrate how various schools would solve the simplest task: fitting a Gaussian.
+There are several ways to be a statistician, that is, to use data and models to make decisions in the presence of uncertainty. In this project, we demonstrate how various schools would solve the simplest task: fitting a Gaussian.
 
 ### Install from sources
 

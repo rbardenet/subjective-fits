@@ -10,9 +10,6 @@
 
 There are several ways to do be a statistician, that is, to use data and models to make decisions in the presence of uncertainty. In this project, we demonstrate how various schools would solve the simplest task: fitting a Gaussian.
 
-### Run on Colab
-Google now offers a jupyter notebook service that allows you to run the code without installing anything locally. 
-
 ### Install from sources
 
 Clone this repository
